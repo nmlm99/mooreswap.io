@@ -2,7 +2,7 @@
   "name": "uniswap",
   "description": "Uniswap Exchange Protocol",
   "version": "0.1.0",
-  "homepage": "nmlm99.github.io/mooreswap.io/
+  "homepage": "nmlm99.github.io/mooreswap/
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -63,7 +63,10 @@
     "check:lint": "yarn lint:base",
     "check:format": "yarn format:base --check",
     "check:all": "yarn check:lint && yarn check:format"
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d build",
   },
+
   "eslintConfig": {
     "extends": "react-app"
   },

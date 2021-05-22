@@ -2,7 +2,7 @@
   "name": "uniswap",
   "description": "Uniswap Exchange Protocol",
   "version": "0.1.0",
-  "homepage": "https://nmlm99.github.io
+  "homepage": "nmlm99.github.io/mooreswap.io/
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -86,7 +86,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://nmlm99.github.io/mooreswap.io"
+    "url": "nmlm99.github.io/mooreswap"
   },
   "keywords": [
     "npm",
